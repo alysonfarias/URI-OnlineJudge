@@ -25,3 +25,12 @@ public class Solution {
         return false;
     }
 }
+
+/*
+One line with LINQ
+public bool ContainsDuplicate(int[] nums)
+{
+    return nums.Count() > nums.Distinct().Count();
+}
+*/
+
